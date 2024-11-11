@@ -15,6 +15,6 @@ type User struct {
 
 type Todo struct {
 	ID          int    `json:"id"`
-	Body        string `body:"name"`
+	Body        string `json:"body"`
 	IsCompleted bool   `json:"isCompleted"`
 }

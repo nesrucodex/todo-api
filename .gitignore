@@ -1,5 +1,5 @@
 tmp/
-
+.env
 go.sum
 .air.toml
 *.test

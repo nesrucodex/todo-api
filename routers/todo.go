@@ -10,4 +10,6 @@ func TodoRouter(api fiber.Router) {
 	todo.Get("/", handlers.GetTodos)
 	todo.Get("/:id", handlers.GetTodoById)
 	todo.Post("/", handlers.CreateTodo)
+	todo.Patch("/:id", handlers.UpdateTodo)
+	todo.Delete("/:id", handlers.UpdateTodo)
 }
